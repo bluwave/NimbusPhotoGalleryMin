@@ -32,7 +32,9 @@ cp ${NIMBUS_CORE}/NIPreprocessorMacros.h ${DST}
     ```bash 
 	#DIRECTORY LOCATION VARIABLES
 	NIMBUS_DIR=<path to nimbus project here>
-	DST=<LIB DIRECTORY OF YOUR PROJECT>
+	DST=<nimbus folder in LIB DIRECTORY of your existing project (i.e. DST="lib/nimbusPhotoMinFiles")>
 	```	
-4. Add the directory of minimum nimbus files you just copied from the script to your existing xcode project.
+
+4. run the script
+5. Add the directory of minimum nimbus files you just copied from the script to your existing xcode project.
 

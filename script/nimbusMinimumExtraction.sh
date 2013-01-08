@@ -1,3 +1,4 @@
+#DIRECTORY LOCATION VARIABLES
 NIMBUS_DIR=../lib/nimbus
 DST=../lib/nimbusPhotoMin
 
@@ -7,7 +8,7 @@ NIMBUS_CORE="${NIMBUS_DIR}/src/core/src"
 
 if [ ! -e ${DST} ]
 	then
-	echo "doesn't exist"
+	# echo "doesn't exist"
 	mkdir ${DST}
 fi
 
