@@ -1,0 +1,6 @@
+[submodule "lib/AFNetworking"]
+	path = lib/AFNetworking
+	url = https://github.com/AFNetworking/AFNetworking.git
+[submodule "lib/nimbus"]
+	path = lib/nimbus
+	url = https://github.com/jverkoey/nimbus.git
