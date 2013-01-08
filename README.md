@@ -16,10 +16,9 @@ This script copies the bare minimum files from the nimbus project into the folde
 
 Nimbus includes caching `NIInMemoryCache`.  If you desire to use a different type of caching, you can comment out the following lines in the `nimbusMinimumExtraction.sh` script
 
-`cp ${NIMBUS_CORE}/NIDataStructures.* ${DST}
-
- cp ${NIMBUS_CORE}/NIInMemoryCache.* ${DST}
-
- cp ${NIMBUS_CORE}/NIPreprocessorMacros.h ${DST}
-`
+```bash
+cp ${NIMBUS_CORE}/NIDataStructures.* ${DST}
+cp ${NIMBUS_CORE}/NIInMemoryCache.* ${DST}
+cp ${NIMBUS_CORE}/NIPreprocessorMacros.h ${DST}
+````
 
