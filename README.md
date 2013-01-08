@@ -1,3 +1,7 @@
+Nimbus has one of the best image gallery libraries around.  The only thing of value in this repo is the **nimbusMinimumExtraction.sh** that copies the bare minimum files from the slightly large nimbus project to get the image gallery working.  
+
+## steps to get this example working
+
 steps to make this work:
 
 1. git clone ...
