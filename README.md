@@ -1,4 +1,4 @@
-Nimbus has one of the best image gallery libraries around.  The only thing of value in this repo is the [nimbusMinimumExtraction.sh](https://github.com/bluwave/NimbusPhotoGalleryMin/blob/master/script/nimbusMinimumExtraction.sh) script that copies the bare minimum files from the slightly large nimbus project to get the image gallery working.  
+[Nimbus](https://github.com/jverkoey/nimbus) has one of the best image gallery libraries around.  The only thing of value in this repo is the [nimbusMinimumExtraction.sh](https://github.com/bluwave/NimbusPhotoGalleryMin/blob/master/script/nimbusMinimumExtraction.sh) script that copies the bare minimum files from the slightly large nimbus project to get the image gallery working.  
 
 ## steps to get this example working
 
