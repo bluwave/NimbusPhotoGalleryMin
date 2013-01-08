@@ -22,3 +22,17 @@ cp ${NIMBUS_CORE}/NIInMemoryCache.* ${DST}
 cp ${NIMBUS_CORE}/NIPreprocessorMacros.h ${DST}
 ````
 
+## adding minimum nimbus photo galleries to an existing project
+
+1. copy [script](https://github.com/bluwave/NimbusPhotoGalleryMin/blob/master/script/nimbusMinimumExtraction.sh) to your project directory
+2. clone the [nimbus](https://github.com/jverkoey/nimbus) project locally
+3. change the [script](https://github.com/bluwave/NimbusPhotoGalleryMin/blob/master/script/nimbusMinimumExtraction.sh) *DIRECTORY LOCATION VARIABLES* to point to nimbus project folder you just cloned and the location in your existing project where you would like nimbus photo gallery files to be located.
+    i.e.
+
+    ```bash 
+	#DIRECTORY LOCATION VARIABLES
+	NIMBUS_DIR=<path to nimbus project here>
+	DST=<LIB DIRECTORY OF YOUR PROJECT>
+	```	
+4. Add the directory of minimum nimbus files you just copied from the script to your existing xcode project.
+
