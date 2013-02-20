@@ -44,5 +44,7 @@ sed -ie 's|#import "NIOperations.h"|//#import "NIOperations.h"|g' NimbusCore.h
 sed -ie 's|#import "NIRuntimeClassModifications.h"|//#import "NIRuntimeClassModifications.h"|g' NimbusCore.h
 sed -ie 's|#import "NISnapshotRotation.h"|//#import "NISnapshotRotation.h"|g' NimbusCore.h
 sed -ie 's|#import "NIState.h"|//#import "NIState.h"|g' NimbusCore.h
+sed -ie 's|#import "NIButtonUtilities.h"|//#import "NIButtonUtilities.h"|g' NimbusCore.h
+sed -ie 's|#import "NIImageUtilities.h"|//#import "NIImageUtilities.h"|g' NimbusCore.h
 rm NimbusCore.he
 popd
